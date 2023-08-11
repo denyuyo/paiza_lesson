@@ -10,3 +10,6 @@ N = int(input())
 
 for i in range(1, N + 1):  # 1からNまでの数値を順番に処理
     print(i)
+
+# 文字列one two three four fiveを半角スペースで出力
+
