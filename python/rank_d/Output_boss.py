@@ -35,3 +35,13 @@ final_result = formatted_n_str[::-1]
 
 print(final_result)
 
+#【組になったデータの入力】文字列と整数の組からの選択 
+
+N = int(input())
+
+data = []
+for _ in range(N):
+    s, a = input().split()
+    data.append((s, int(a)))
+
+print(f"{data[7][0]} {data[7][1]}")
