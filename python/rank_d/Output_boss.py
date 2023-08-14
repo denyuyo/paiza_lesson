@@ -45,3 +45,16 @@ for _ in range(N):
     data.append((s, int(a)))
 
 print(f"{data[7][0]} {data[7][1]}")
+
+# 行ごとに要素数の異なる整数列の入力
+
+N = int(input()) 
+
+matrix = [] 
+
+for _ in range(N):
+    row = list(map(int, input().split()[1:]))
+    matrix.append(row)
+
+for row in matrix:
+    print(" ".join(map(str, row)))
