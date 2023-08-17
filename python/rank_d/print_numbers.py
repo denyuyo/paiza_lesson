@@ -19,3 +19,10 @@ print("1 1")
 print("8")
 print("1")
 print("3")
+
+# 10 個の整数を改行区切りで出力
+
+numbers = [813, 1, 2, 923874, 23648, 782356, 3256, 2342, 24324, 112]
+
+for number in numbers:
+    print(number)
