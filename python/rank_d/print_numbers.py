@@ -26,3 +26,8 @@ numbers = [813, 1, 2, 923874, 23648, 782356, 3256, 2342, 24324, 112]
 
 for number in numbers:
     print(number)
+    
+# 10 個の数値を出力 (半角)
+
+for i in range(1, 11):
+    print(i, end=' ')
