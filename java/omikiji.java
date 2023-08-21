@@ -48,3 +48,18 @@ public class Main {
 		System.out.println("昭和" + showa + "年です。");
 	}
 }
+
+// 順位に合わせてメッセージを表示する
+
+public class Main {
+    public static void main(String[] args) {
+        double rand = (Math.random() * 10) + 1;
+        int number = (int) rand;
+        System.out.println("あなたの順位は" + number + "位です");
+
+        if (number > 1 && number <= 5) {
+            System.out.println("あと少し");
+        }
+
+    }
+}
