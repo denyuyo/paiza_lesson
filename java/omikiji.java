@@ -63,3 +63,16 @@ public class Main {
 
     }
 }
+
+// 不快指数
+public class Main {
+    public static void main(String[] args) {
+        double rand = (Math.random() * 71) + 30;
+        int discomfort = (int) rand;
+        System.out.println("不快指数は" + discomfort + "です。");
+
+        if (discomfort <= 55 || discomfort >= 70) {
+            System.out.println("不快です");
+        }
+    }
+}
