@@ -76,3 +76,18 @@ public class Main {
         }
     }
 }
+
+// 順位に合わせてメッセージを表示する
+
+public class Main {
+    public static void main(String[] args) {
+        double rand = (Math.random() * 10) + 1;
+        int number = (int) rand;
+        System.out.println("あなたの順位は" + number + "位です");
+
+        boolean flag = number <= 3;
+        if (flag) {
+            System.out.println("入賞おめでとう");   //条件が成立したときの処理
+        }
+    }
+}
