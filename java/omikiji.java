@@ -91,3 +91,13 @@ public class Main {
         }
     }
 }
+
+// 文字列を数値に変換しよう
+
+public class Main {
+    public static void main(String[] args) {
+        String numberAsString = "0.08";
+        double number = Double.parseDouble(numberAsString);
+        System.out.println(number);
+    }
+}
