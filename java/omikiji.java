@@ -1,5 +1,8 @@
 // おみくじを作る
-public class Main {
+public class omikiji {
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		int omikuji = (int)(Math.random() * 100 + 1);  // randomメソッドについては次のチャプターで説明します
 		if (omikuji >= 30) {
