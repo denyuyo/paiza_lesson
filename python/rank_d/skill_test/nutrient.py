@@ -15,3 +15,11 @@ protein = 1500
 total = weight * protein
 
 print(total)
+
+# 時給の計算
+
+wage = int(input())
+hours = int(input())
+
+pay = wage * hours
+print(pay)
