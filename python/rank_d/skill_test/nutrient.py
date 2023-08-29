@@ -23,3 +23,11 @@ hours = int(input())
 
 pay = wage * hours
 print(pay)
+
+# 新しい呪文
+
+b = input()
+c = input()
+
+spell = b + c
+print(spell)
