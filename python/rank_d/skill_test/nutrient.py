@@ -29,3 +29,12 @@ height = int(input())
 
 year = height + 10
 print(year)
+
+# 電気代の計算
+
+n = int(input())
+w = n * 25
+
+h = w * 24
+
+print(h)
