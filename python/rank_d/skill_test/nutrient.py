@@ -38,3 +38,11 @@ w = n * 25
 h = w * 24
 
 print(h)
+
+# ショッピングモールの買い物
+
+a = int(input())
+b = int(input())
+
+total = (a + b) * 2
+print(total)
