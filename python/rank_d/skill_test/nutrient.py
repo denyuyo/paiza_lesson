@@ -46,3 +46,13 @@ b = int(input())
 
 total = (a + b) * 2
 print(total)
+
+# 夏休みの課題
+
+issue = 500
+
+a = int(input())
+b = int(input())
+
+done = issue - (a + b)
+print(done)
