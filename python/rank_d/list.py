@@ -33,5 +33,19 @@ print(url_str.split("/"))
 
 import sys
 for line in sys.stdin.readlines():
-	msg = line.rstrip()
-	print(msg + "が現れた")
+    msg = line.rstrip()
+    print(msg + "が現れた")
+
+# 複数行のカンマ区切りデータを出力する
+
+import sys
+
+for line in sys.stdin.readlines():
+
+    data = line.strip().split(',')
+
+    enemy_name = data[0]
+    enemy_count = data[1]
+
+    output = f"{enemy_name}が{enemy_count}匹現れた"
+    print(output)
