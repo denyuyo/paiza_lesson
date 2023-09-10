@@ -67,3 +67,16 @@ print(janken)
 
 # ランダムに選んだリストの要素を出力
 print(janken[random.randrange(num)])
+
+# おみくじプログラム
+
+import random
+line = input().rstrip()
+
+omikuji = line.split(",")
+
+num = len(omikuji)
+
+print(omikuji)
+
+print(omikuji[random.randrange(num)])
