@@ -29,6 +29,15 @@ print(enemies["中ボス"])
 
 for rank in enemies:
     print(enemies[rank] + "が、あらわれた！")
-# 全表示
 for (rank, enemy) in enemies.items():
     print(rank + "の" + enemy + "が、あらわれた！")
+
+# ループ合計計算
+
+points = {"国語" : 70, "算数" : 35, "英語" : 52}
+sum = 0
+
+for score in points.values():
+    sum += score
+
+print(sum)
