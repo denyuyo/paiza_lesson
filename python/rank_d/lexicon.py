@@ -19,3 +19,16 @@ skills["職業"] = "魔法使い"
 # 削除
 del skills["体力"]
 print(skills)
+
+# ループ処理
+
+# 辞書のおさらい
+enemies = {"ザコ":"スライム", "中ボス":"ドラゴン", "ラスボス":"魔王"}
+print(enemies)
+print(enemies["中ボス"])
+
+for rank in enemies:
+    print(enemies[rank] + "が、あらわれた！")
+# 全表示
+for (rank, enemy) in enemies.items():
+    print(rank + "の" + enemy + "が、あらわれた！")
