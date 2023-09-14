@@ -41,3 +41,16 @@ for score in points.values():
     sum += score
 
 print(sum)
+
+# リストの整列
+weapons = ["ぎんがのつるぎ", "ハイパーノヴァ", "ケイオスブレード", "ときのおうしゃく"]
+print(weapons)
+
+print(sorted(weapons))
+print(sorted(weapons, reverse=True))
+
+weapons2 = ["4.ぎんがのつるぎ", "1.ハイパーノヴァ", "1.ケイオスブレード", "2.ときのおうしゃく"]
+print(sorted(weapons2))
+
+weapons3 = ["精霊王のタクト", "神鳥の杖", "ランタンステッキ", "聖竜のえんげつとう"]
+print(sorted(weapons3))
