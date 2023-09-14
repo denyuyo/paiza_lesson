@@ -54,3 +54,12 @@ print(sorted(weapons2))
 
 weapons3 = ["精霊王のタクト", "神鳥の杖", "ランタンステッキ", "聖竜のえんげつとう"]
 print(sorted(weapons3))
+
+# ソート演習
+
+apples = [310, 322, 292, 288, 300, 346]
+print(sorted(apples))               # 昇順
+print(sorted(apples, reverse=True)) # 逆順
+# アルファベット順
+words = ["pumpkin", "orange", "apple", "carrot", "onion"]
+print(sorted(words))
