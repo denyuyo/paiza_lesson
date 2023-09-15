@@ -69,3 +69,9 @@ weapons = {"ぎんがのつるぎ":182, "ハイパーノヴァ":131, "ときの�
 print(sorted(weapons))
 print(weapons)
 print(sorted(weapons.items()))
+
+# ソート演習
+
+math = {"いいだ" : 12, "えんどう" : 99, "あだち" : 40}
+print(sorted(math))
+print(sorted(math.items()))
