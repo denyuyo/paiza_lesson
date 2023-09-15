@@ -63,3 +63,9 @@ print(sorted(apples, reverse=True)) # 逆順
 # アルファベット順
 words = ["pumpkin", "orange", "apple", "carrot", "onion"]
 print(sorted(words))
+
+# 辞書の整列
+weapons = {"ぎんがのつるぎ":182, "ハイパーノヴァ":131, "ときのおうしゃく":76}
+print(sorted(weapons))
+print(weapons)
+print(sorted(weapons.items()))
