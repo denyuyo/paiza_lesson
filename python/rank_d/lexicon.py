@@ -33,10 +33,8 @@ for (rank, enemy) in enemies.items():
     print(rank + "の" + enemy + "が、あらわれた！")
 
 # ループ合計計算
-
 points = {"国語" : 70, "算数" : 35, "英語" : 52}
 sum = 0
-
 for score in points.values():
     sum += score
 
@@ -56,7 +54,6 @@ weapons3 = ["精霊王のタクト", "神鳥の杖", "ランタンステッキ",
 print(sorted(weapons3))
 
 # ソート演習
-
 apples = [310, 322, 292, 288, 300, 346]
 print(sorted(apples))               # 昇順
 print(sorted(apples, reverse=True)) # 逆順
@@ -70,8 +67,34 @@ print(sorted(weapons))
 print(weapons)
 print(sorted(weapons.items()))
 
-# ソート演習
+# RPGアイテム一覧再現
 
-math = {"いいだ" : 12, "えんどう" : 99, "あだち" : 40}
-print(sorted(math))
-print(sorted(math.items()))
+# 画像用辞書
+item_images = {
+    "剣":"http://paiza.jp/learning/images/sword.png",
+    "盾":"http://paiza.jp/learning/images/shield.png",
+    "回復薬":"http://paiza.jp/learning/images/potion.png",
+    "クリスタル":"http://paiza.jp/learning/images/crystal.png"
+}
+# アイテムの並び順配列
+item_orders = ["クリスタル", "回復薬", "盾", "剣", "回復薬", "回復薬"]
+# アイテム名を取り出す
+for item_name in item_orders:
+# 画像ファイル名を取り出す
+    print("<img src='" + item_images[item_name] + "'>")
+    print(item_name + "<br>")
+
+# 画像用辞書(Lv.2)
+items_images = {
+    "剣": "http://paiza.jp/learning/images/sword.png",
+    "盾": "http://paiza.jp/learning/images/shield.png",
+    "回復薬": "http://paiza.jp/learning/images/potion.png",
+    "クリスタル": "http://paiza.jp/learning/images/crystal.png"
+}
+# アイテム数を標準入力から取得
+item_count = int(input())
+# アイテム名を入力し、対応する画像を表示
+for _ in range(item_count):
+    item_name = input().rstrip()
+    if item_name in items_images:
+        print(f"<img src='{items_images[item_name]}'>")
