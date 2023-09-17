@@ -19,3 +19,16 @@ print(teams[1])
 print(teams[2][0])
 print(teams[2][1])
 print(teams[2][2])
+
+# 2次元リスト 基本操作1
+
+teams = [["勇者", "戦士"], ["盗賊", "忍者", "商人"], ["スライム", "ドラゴン", "魔王"], ["魔法使い"]]
+print(teams)
+print(teams[0])
+print(teams[0][0])
+print(teams[0][1])
+
+teams[0][1] = "魔導士"
+print(teams)
+print(len(teams))
+print(len(teams[0]))
