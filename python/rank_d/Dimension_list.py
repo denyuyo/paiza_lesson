@@ -55,3 +55,18 @@ del teams[0][1]
 print(teams)
 print(len(teams))
 print(len(teams[0]))
+
+# ループ リスト処理
+team = ["勇者", "戦士", "魔法使い"]
+print(team)
+print(team[0])
+
+for (i, person) in enumerate(team):
+    print(str(i + 1) + "番目の" + person + "が、スライムと戦った")
+
+numbers = [3, 1, 4, 1, 5]
+results = []
+for item in numbers:
+    results.append(item * 10)
+    
+print(results)
