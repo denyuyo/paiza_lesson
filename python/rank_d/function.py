@@ -14,3 +14,17 @@ num1 = sum(555, 777)
 print(num1)
 num2 = sum(5555, 7777)
 print(num2)
+
+# 九九の表を生成
+
+def multiply(x, y):
+    return x * y
+
+for x in range(1, 10):
+    for y in range(1, 10):
+        result = multiply(x, y)
+        print(result, end="")
+        if y < 9:
+            print(", ", end="")
+        else:
+            print()
