@@ -45,3 +45,28 @@ def sum(x, y):
 num = sum(a, b)
 print(num)
 print(message + " " + str(a))
+
+# RPGの攻撃シーン
+
+import random
+def attack(enemy):
+    print("勇者は" + enemy + "を、攻撃した。")
+    hit = random.randint(1,10)
+    if hit < 6:
+        print(enemy + "に、" + str(hit) + "のダメージを与えた！")
+    else:
+        print("クリティカルヒット！" + enemy + "に、100のダメージを与えた！")
+
+enemies = ["スライム", "モンスター", "ドラゴン"]
+for enemy in enemies:
+    # print("勇者は" + enemy + "を、攻撃した。")
+    attack(enemy)
+
+# 引数のデフォルト値
+
+def introduce(**people):
+    for name, greeting in people.items():
+        print("私は" + name + "です。" + greeting)
+    print(people)
+
+introduce(hero="初めまして", villager="こんにちは", soldier="よろしくお願いします")
