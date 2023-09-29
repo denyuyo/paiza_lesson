@@ -70,3 +70,16 @@ def introduce(**people):
     print(people)
 
 introduce(hero="初めまして", villager="こんにちは", soldier="よろしくお願いします")
+
+# キーワード引数
+
+def say_hello(greeting = "hello", target = "world"):
+    print(greeting + " " + target)
+
+say_hello()
+say_hello("こんにちは", "皆さん")
+say_hello("good mornimg!")
+say_hello(greeting = "こんにちは", target = "皆さん")
+say_hello(target = "猫先生", greeting = "おはようございます")
+say_hello(target = "ネコ先生")
+say_hello(greeting = "おはようございます！")
