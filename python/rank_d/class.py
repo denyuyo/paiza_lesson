@@ -64,3 +64,18 @@ print("合計金額は" + str(total) + "円です")
 orange = Item(85, 32)
 total = orange.total()
 print("合計金額は" + str(total) + "円です")
+
+# 文字列とリストのメソッドを使ってみよう
+
+text = "pYthon"
+print(text)
+print(text.capitalize())
+print(text.upper())
+
+players = "探偵,怪盗,魔法少女,忍者"
+list = players.split(",")
+print(list)
+list.remove("忍者")
+print(list)
+list.append("霧島")
+print(list)
