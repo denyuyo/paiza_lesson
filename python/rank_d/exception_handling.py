@@ -90,3 +90,23 @@ try:
 except ZeroDivisionError as e:
     print(8)
     print(e)
+
+# finallyをもっと理解しよう
+
+import sys
+
+def test_exception(number):
+    try:
+        return 100 / number
+
+    except ZeroDivisionError as e:
+        raise e
+    finally:
+        print("処理が終了しました")
+
+
+try:
+    test_exception(0)
+
+except ZeroDivisionError as e:
+    sys.stderr.write('0で割り算できません')
