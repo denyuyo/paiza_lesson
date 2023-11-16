@@ -30,3 +30,56 @@ public class Timeline {
     System.out.println("You are a fun language!");
   }
 } 
+
+# セミコロンと空白
+public class LanguageFacts {
+  public static void main(String[] args) {
+    // Press enter or return on your keyboard after each semicolon!
+    System.out.println("Programming is…");
+    
+    System.out.println("Java is a class-based language.");
+    System.out.println("Java classes have a 'main' method.");
+    System.out.println("Java statements end with a semicolon.");
+  }
+}
+
+# コンパイル: エラーの捕捉
+public class Compiling {
+  public static void main(String[] args) {
+    
+    System.out.println("Java is a class-based language.");
+    System.out.println("Java classes have a 'main' method.");
+    System.out.println("Java statements end with a semicolon.");
+
+    System.out.println("Programming is... fun!");
+    
+  }
+}
+
+# コンパイル: 実行可能ファイルの作成
+public class Compiling {
+  public static void main(String[] args) {
+    
+    System.out.println("Java is a class-based language.");
+    System.out.println("Java classes have a 'main' method.");
+    System.out.println("Java statements end with a semicolon.");
+
+    System.out.println("Programming is... fun!");
+    
+  }
+}
+
+// within the file: Welcome.java
+public class Welcome {
+  public static void main(String[] args) {
+    System.out.println("Welcome to Codecademy's Java course!");
+  }
+}
+
+# Java レビュー: すべてをまとめる
+public class Review {
+  public static void main(String[] args) {
+    System.out.println("My first Java program from scratch!");
+    // The main method executes the tasks of the class
+  }
+}
